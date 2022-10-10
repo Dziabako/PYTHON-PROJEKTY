@@ -1,0 +1,5 @@
+print("Ulubione potrawy!")
+jeden = input("Podaj pierwszą potrawę: ")
+dwa = input("Podaj drugą potrawę: ")
+print("\nTwoja uluniona potrawa to: ", jeden, dwa)
+input("\n Aby zakonczyc nacisnij klawisz ENTER")

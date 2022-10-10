@@ -1,0 +1,7 @@
+print("Kalkulator napiwku")
+kwota = int(input("\nPodaj kwote rachunku: "))
+napiwek15 = int(kwota*0.15)
+napiwek30 = int(kwota*0.30)
+print("\nNapiwek 15%: ", napiwek15)
+print("Napiwek 30%: ", napiwek30)
+input("\nAby zakonczyc nacisnij klawisz ENTER")

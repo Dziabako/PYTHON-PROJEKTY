@@ -1,0 +1,3 @@
+licznik = int()
+while licznik <= 10:
+ print(licznik)

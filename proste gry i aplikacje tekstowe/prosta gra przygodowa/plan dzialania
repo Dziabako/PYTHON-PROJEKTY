@@ -1,0 +1,47 @@
+PRZECIWNICY:
+    kazdy nowy rodzaj przeciwnikow to nowa klasa
+    wewnatrz nazwy umieszczone w liscie
+    metoda do dodawania kazdemu mobowi statow w postaci osobnych slownikow (HP, ATT, EXP, LOOT)
+    slowniki zapisane pozniej do listy
+    po pokonaniu daja losowy loot (prawdopodobienstwo w python do sprawdzenia)
+    ATT graca i moba sa dobierane losowo na podstawie aktualnego ATT danej postaci
+        w sensie ze zadaja rozne ciosy o roznej wartosci
+    obrazenie krytyczne zadaja podwojne obrazenia
+
+SWIATY:
+    importuja przeciwnikow
+    kazdy swiat ma swoje moby
+    losowo wybrany mob z listy slownikow
+    po pokonaniu bosa mozna pojsc dalej do innego swiata lub dalej expic
+        boss powinien miec procentowa szanse na spotkanie (prawdopodobienstwo w python do sprawdzenia)
+        po tym po pokonaiu kazdego przeciwnika powinna byc mozliwosc prfzejscia do innego swiata
+
+POSTAC:
+    nie importuje niczego
+    na poczatku tworzac podajemy tylko imie
+    na poczatku postac posiada okreslona liczbe HP i ATT ktora zwieksza sie z LVL
+    kazdy LVL powinien miec wymagana liczbe EXP
+    po zdobyciu lvl HP gracza sie odnawia
+    podczas walki gracz moze zginac
+    ATT graca i moba sa dobierane losowo na podstawie aktualnego ATT danej postaci
+        w sensie ze zadaja rozne ciosy o roznej wartosci
+    obrazenie krytyczne zadaja podwojne obrazenia
+
+GRA:
+    importuje wszystkie stworzone moduly
+    przy starcie pyta o imie gracza
+    pierwszy swiat jest staly
+    nastepnie sa dwie sciezki gdzie mozna sie udac
+    po skonczeniu wybranej sciezki jest ostatni swiat z finalowym bossem (prawdopodobienstwo w python do sprawdzenia)
+    podczas kazdej walki wyswietlane sa zadane obrazenia dla bohatera oraz potwora
+    na koniec gry wyswietla koncowe statystyki i lvl postaci
+    gratulacje dla gracza ze wygral
+
+
+DO DODANIA W POZNIEJSZYM TERMINIE:
+    magia, czary i obrazenia magiczne
+    magiczne przedmioty
+    bardziej rozbudowany ekwipunek w miare aktualnych mozliwosci
+    dodatkowe statystyki postaci
+    mozliwosc doboru statystyk na starcie oraz po kazdym LVL
+    przeniesc gre na forme graficzna
